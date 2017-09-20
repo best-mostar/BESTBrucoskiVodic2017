@@ -6,9 +6,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" type="text/css" href="css/style.css">
+   
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+    <script type="text/javascript" src="script/jquery_counter/jquery.countdownTimer.js"></script>
+    <link rel="stylesheet" type="text/css" href="script/jquery_counter/css/jquery.countdownTimer.css" />
+
+    <script type="text/javascript" src="script/script.js"></script>
+
     <title>BEST Mostar - Brucoški vodič</title>
     <link rel="shortcut icon" href="photos/best-mostar-fico.ico" type="image/x-icon" />
 </head>
@@ -31,7 +38,6 @@
                     <li><a href="index.html">HOME</a></li>
                     <li><a href="#">O PROJEKTU</a></li>
                     <li><a href="http://www.best-mostar.org" target="_blank">BEST</a></li>
-                    <li><a href="#">COUNTER</a></li>
                     <li><a href="#">PARTNERI</a></li>                
                 </ul>
             </div>
@@ -39,28 +45,118 @@
     </nav> 
 
     <div class="container content" id="counter">
-        <center>
-            <br>
-            <span>BRUCOŠKI VODIČ RELEASE</span>
-        </center>                
+        <center>   
+            <span id="title">BRUCOŠKI VODIČ RELEASE</span>
+
+            <div id="countdowntimer"><span id="defaultCountdown"><span></div>
+
+            <span id="titleText">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore 
+                magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo 
+                consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
+                Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborummmm. 
+            </span>
+
+            <button type="button" id="readMore" onclick="window.location.href='#'">PROČITAJTE VIŠE</button>
+        </center>
     </div>
 
     <div class="container content" id="slider">
-                  
+        <center>
+            <span id="partners">PARTNERI</span>
+
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="carousel slide multi-item-carousel" id="theCarousel">
+                            <div class="carousel-inner">
+                                <div class="item active">
+                                    <div class="col-xs-4"><a href="#1"><img src="photos/noimage.png" class="img-responsive"></a></div>
+                                </div>
+                                <div class="item">
+                                    <div class="col-xs-4"><a href="#1"><img src="photos/noimage.png" class="img-responsive"></a></div>
+                                </div>
+                                <div class="item">
+                                    <div class="col-xs-4"><a href="#1"><img src="photos/noimage.png" class="img-responsive"></a></div>
+                                </div>
+                                <div class="item">
+                                    <div class="col-xs-4"><a href="#1"><img src="photos/noimage.png" class="img-responsive"></a></div>
+                                </div>
+                                <div class="item">
+                                    <div class="col-xs-4"><a href="#1"><img src="photos/noimage.png" class="img-responsive"></a></div>
+                                </div>
+                                <div class="item">
+                                    <div class="col-xs-4"><a href="#1"><img src="photos/noimage.png" class="img-responsive"></a></div>
+                                </div>
+                                <div class="item">
+                                    <div class="col-xs-4"><a href="#1"><img src="photos/noimage.png" class="img-responsive"></a></div>
+                                </div>
+                            </div>
+                            <a class="left carousel-control" href="#theCarousel" data-slide="prev"><i class="glyphicon glyphicon-chevron-left"></i></a>
+                            <a class="right carousel-control" href="#theCarousel" data-slide="next"><i class="glyphicon glyphicon-chevron-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </center>
     </div>
 
     <div class="container content" id="photo">
-                      
+        <img src="photos/students.png" alt="Studenti_1" class="col-md-4" style="height: 100%; padding: 0;"> 
+        <img src="photos/students.png" alt="Studenti_2" class="col-md-4" style="height: 100%; padding: 0;">
+        <img src="photos/students.png" alt="Studenti_3" class="col-md-4" style="height: 100%; padding: 0;">   
     </div>
 
     <div class="container content" id="contact">
         <div class="container" id="contact_map">
-
+            <iframe src="http://maps.google.com/maps?f=d&amp;source=s_d&amp;saddr=43.354710, 17.809469&amp;daddr=&amp;hl=en&amp;geocode=&amp;sll=43.354710, 17.809469&amp;sspn=0.003476,0.006378&amp;vpsrc=6&amp;t=h&amp;mra=mift&amp;mrsp=0&amp;sz=18&amp;ie=UTF8&amp;ll=43.354710, 17.809469&amp;spn=0.003476,0.006378&amp;output=embed" width="100%" height="100%" frameborder="0" marginwidth="0" marginheight="0" scrolling="no"></iframe>
         </div>     
         
         <div class="container" id="contact_sendmail">
-                
-        </div> 
+            <center>
+                <span id="message">SEND US A MESSAGE</span>
+            </center>
+
+            <form action="mailto:mostar@best.eu.org" method="post" enctype="text/plain">
+                <table>
+                    <tr>
+                        <td>
+                            <span class="mailNames">Name</span>
+                            <br>
+                            <input type="text" name="name" class="inputs">
+                        </td>
+
+                        <td rowspan="3">
+                            <span class="mailNames" id="ym">Your message</span>
+                            <br>
+                            <textarea name="message" cols="45" rows="10" style="border: none;"></textarea>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td>
+                            <span class="mailNames">Company name</span>
+                            <br>
+                            <input type="text" name="companyName" class="inputs">
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td>
+                            <span class="mailNames">Email</span>
+                            <br>
+                            <input type="text" name="mail" class="inputs">
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td colspan="2">
+                            <input type="submit" value="SEND" id="button">
+                        </td>
+                    </tr>  
+                </table>
+            </form>
+        </div>
     </div>
     
     <div class="container" id="footer">
@@ -71,7 +167,7 @@
         <label class="float-right" style="width:50%;float:right; text-align: right;"> 
             Supported by <a href="http://www.mss.ba" target="_blank">MSS</a> 
         </label>
-    </div>
+    </div> 
 </body>
 
 </html>
