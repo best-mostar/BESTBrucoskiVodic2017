@@ -24,4 +24,24 @@ $(document).ready(function () {
             $(this).siblings(':first').children(':first-child').clone().appendTo($(this));
         }
     });
+     
+    /*$(window).resize(function(){*/
+        if ($(window).width() <= 480){	
+            $("#defaultCountdown").countdowntimer({
+                size: "xs"
+            });
+        } else  if ($(window).width() <= 767){	
+            $("#defaultCountdown").countdowntimer({
+                size: "sm"
+            });
+        } else if ($(window).width() <= 1024){	
+            $("#defaultCountdown").countdowntimer({
+                size: "md"
+            });
+        } else {
+            $("#defaultCountdown").countdowntimer({
+                size: "xl"
+            });
+        }	
+   /* });*/
 });
