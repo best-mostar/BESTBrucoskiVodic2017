@@ -2,153 +2,596 @@
     box-sizing: border-box;
 }
 
+@media only screen and  (min-width: 320px) and (max-width: 480px) {
+    #logo {
+        height: 2.7em;
+        width: 5.6em;
+        margin-top: -15%;
+    }
+   
+    #counter {
+        background-color: #9F0306;
+        width: 100%;
+        height: 26em;
+        padding: 1em;
+    }
 
-#logo {
-    height: 3em;
-    width: 6em;
-    margin-top: -13px;
+    #title {
+        color: white;
+        font-size: 1.5em;
+    }
+
+    #titleText {
+        display: inline-block;
+        color: white;
+        font-size: 1em;
+        margin: 0 2em 0 2em;
+    }
+
+    #readMore {
+        color: #A3A0A1;
+        background-color: #FFFFFF;
+        border: none;
+        font-size: 1.1em;
+        margin-top: 0.4em;
+        padding-left: 0.3em;
+        padding-right: 0.3em;
+    }
+
+    #slider {
+        background-color: #F3F1F1;
+        width: 100%;
+        padding: 1em;
+    }
+
+    #partners {
+        display: inline-block;
+        color: #A3A0A1;
+        font-size: 1.5em;
+        margin-bottom: 0.2em;
+        margin-top: -0.4em;
+    }
+
+    .carousel-control.left, .carousel-control.right {
+        background-image:none !important;
+        filter:none !important;
+        color: #A3A0A1;
+        margin-left: -1.5em;
+        margin-right: -1.5em;
+    }
+
+    #photo {
+        width: 100%;
+        padding: 0;
+    }
+
+    #contact {
+        width: 100%;
+        padding: 0;
+    }
+    
+    #contact_map {
+        height: 100%;
+        width: 100%;
+        padding: 0;
+    }
+    
+    #contact_sendmail {
+        background-color: #F3F1F1;
+        height: 100%;
+        width: 100%;
+    }
+
+    #message {
+        display: inline-block;
+        color: #A3A0A1;
+        font-size: 1.3em;
+        margin-top: 0.4em;
+    }
+
+    .mailNames {
+        color: #A3A0A1;
+        font-size: 0.9em;
+    }
+    
+    .inputs {
+        border: 0 none;
+        width: 7em;
+        height: 1em;
+        padding: 0.3em;
+    }
+
+    #ym {
+        display: inline-block;
+        margin-top: 0.2em;
+    }
+
+    textarea {
+        width: 11em;;
+        height: 7em;
+        padding: 0.4em;
+        border: none;
+        background-color: #FFFFFF;
+    }
+
+    #button {
+        background-color: #9F0306;
+        color: white;
+        border: none;
+        font-size: 0.9em;
+        width: 5em;
+        float: right;
+        margin-bottom: 0.3em;
+    }
+
+    td {
+        padding-left: 1.9em !important;
+    }
+
+    #footer {
+        width: 100%;
+        height: 4em;
+        background-color: rgb(55, 48, 45);
+        padding: 1.5em;
+        color: white;
+        font-size: 0.7em;
+    }
+    
+    #footer > label > a {
+        color: #9F0306;
+        text-decoration: none;
+    }
 }
 
-div > ul > li > a {
-    margin: 5px 25px;
-    font-size: 18px;
-    color: #A3A0A1;
+@media only screen and (min-width: 481px) and (max-width: 767px) {
+    #logo {
+        height: 2.7em;
+        width: 5.6em;
+        margin-top: -15%;
+    }
+    
+    #counter {
+        background-color: #9F0306;
+        width: 100%;
+        height: 26em;
+        padding: 2em;
+    }
+
+    #title {
+        color: white;
+        font-size: 2em;
+    }
+
+    #titleText {
+        display: inline-block;
+        color: white;
+        font-size: 1.1em;
+        margin: 0 2em 0 2em;
+    }
+
+    #readMore {
+        color: #A3A0A1;
+        background-color: #FFFFFF;
+        border: none;
+        font-size: 1.2em;
+        margin-top: 0.4em;
+        padding-left: 0.3em;
+        padding-right: 0.3em;
+    }
+
+    #slider {
+        background-color: #F3F1F1;
+        width: 100%;
+        padding: 1em;
+    }
+
+    #partners {
+        display: inline-block;
+        color: #A3A0A1;
+        font-size: 2em;
+        margin-bottom: 0.2em;
+        margin-top: -0.4em;
+    }
+
+    .carousel-control.left, .carousel-control.right {
+        background-image:none !important;
+        filter:none !important;
+        color: #A3A0A1;
+        margin-left: -2em;
+        margin-right: -2em;
+    }
+
+    #photo {
+        width: 100%;
+        padding: 0;
+        height: 12.5em;
+    }
+
+    #contact {
+        width: 100%;
+        padding: 0;
+    }
+    
+    #contact_map {
+        height: 100%;
+        width: 100%;
+        padding: 0;
+    }
+    
+    #contact_sendmail {
+        background-color: #F3F1F1;
+        height: 100%;
+        width: 100%;
+    }
+
+    #message {
+        display: inline-block;
+        color: #A3A0A1;
+        font-size: 1.5em;
+        margin-top: 0.4em;
+    }
+
+    .mailNames {
+        color: #A3A0A1;
+        font-size: 0.9em;
+    }
+    
+    .inputs {
+        border: 0 none;
+        width: 7em;
+        height: 1em;
+        padding: 0.3em;
+    }
+
+    #ym {
+        display: inline-block;
+        margin-top: 0.2em;
+    }
+
+    textarea {
+        width: 11em;;
+        height: 7em;
+        padding: 0.4em;
+        border: none;
+        background-color: #FFFFFF;
+    }
+
+    #button {
+        background-color: #9F0306;
+        color: white;
+        border: none;
+        font-size: 0.9em;
+        width: 5em;
+        float: right;
+        margin-bottom: 0.3em;
+    }
+
+    td {
+        padding-left: 5.7em !important;
+    }
+
+    #footer {
+        width: 100%;
+        height: 4em;
+        background-color: rgb(55, 48, 45);
+        padding: 1.5em;
+        color: white;
+        font-size: 0.8em;
+    }
+    
+    #footer > label > a {
+        color: #9F0306;
+        text-decoration: none;
+    }
 }
 
 
-.content {
-    height: 27em;
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+    #logo {
+        height: 2.8em;
+        width: 5.8em;
+        margin-top: -13%;
+    }
+
+    div > ul > li > a {
+        margin: 0.1em 1em;
+        font-size: 1.3em;
+        color: #A3A0A1;
+    }
+
+    .content {
+        height: 20em;
+    }
+
+    #counter {
+        background-color: #9F0306;
+        width: 100%;
+        height: 27em;
+        padding: 2em;
+    }
+
+    #title {
+        color: white;
+        font-size: 3em;
+    }
+
+    #titleText {
+        display: inline-block;
+        color: white;
+        font-size: 1.2em;
+        margin: 0 5em 0 5em;
+    }
+
+    #readMore {
+        color: #A3A0A1;
+        background-color: #FFFFFF;
+        border: none;
+        font-size: 1.5em;
+        margin-top: 0.4em;
+        padding-left: 0.4em;
+        padding-right: 0.4em;
+    }
+
+    #slider {
+        background-color: #F3F1F1;
+        width: 100%;
+        padding: 1.5em;
+    }
+
+    #partners {
+        display: inline-block;
+        color: #A3A0A1;
+        font-size: 3em;
+        margin-bottom: 0.2em;
+        margin-top: -0.3em;
+    }
+
+    .carousel-control.left, .carousel-control.right {
+        background-image:none !important;
+        filter:none !important;
+        color: #A3A0A1;
+        margin-left: -3.5em;
+        margin-right: -3.5em;
+    }
+
+    #photo {
+        width: 100%;
+        padding: 0;
+    }
+
+    #contact {
+        width: 100%;
+        padding: 0;
+    }
+    
+    #contact_map {
+        height: 100%;
+        width: 50%;
+        float: left;
+        padding: 0;
+    }
+    
+    #contact_sendmail {
+        background-color: #F3F1F1;
+        height: 100%;
+        width: 50%;
+        float: left;
+    }
+
+    #message {
+        display: inline-block;
+        color: #A3A0A1;
+        font-size: 2em;
+        margin-top: 0.3em;
+        margin-bottom: 0.4em;
+    }
+
+    .mailNames {
+        color: #A3A0A1;
+        font-size: 1.2em;
+    }
+    
+    .inputs {
+        border: 0 none;
+        width: 11em;
+        height: 1.6em;
+        padding: 0.3em;
+        margin-bottom: 0.5em;
+    }
+
+    #ym {
+        display: inline-block;
+        margin-top: -0.2em;
+    }
+
+    textarea {
+        width: 15em;;
+        height: 10em;
+        padding: 0.4em;
+        border: none;
+        background-color: #FFFFFF;
+    }
+
+    #button {
+        background-color: #9F0306;
+        color: white;
+        border: none;
+        font-size: 1em;
+        width: 5em;
+        float: right;
+        margin-top: 0.3em;
+        margin-bottom: 0.2em;
+    }
+
+    td {
+        padding-left: 1.5em !important;
+    }
+
+    #footer {
+        width: 100%;
+        height: 4em;
+        background-color: rgb(55, 48, 45);
+        padding: 1.5em;
+        color: white;
+        font-size: 1.15em;
+    }
+    
+    #footer > label > a {
+        color: #9F0306;
+        text-decoration: none;
+    }
 }
 
-#counter {
-    background-color: #9F0306;
-    width: 100%;
-    height: 33em;
-    padding: 2em;
+
+@media only screen and (min-width: 1025px) {
+    #logo {
+        height: 3em;
+        width: 6em;
+        margin-top: -11%;
+    }
+
+    div > ul > li > a {
+        margin: 0.3em 3em;
+        font-size: 1.3em;
+        color: #A3A0A1;
+    }
+
+    .content {
+        height: 27em;
+    }
+
+    #counter {
+        background-color: #9F0306;
+        width: 100%;
+        height: 33em;
+        padding: 2em;
+    }
+
+    #title {
+        color: white;
+        font-size: 4em;
+    }
+
+    #titleText {
+        display: inline-block;
+        color: white;
+        font-size: 1.3em;
+        margin: 0 12em 0 12em;
+    }
+
+    #readMore {
+        color: #A3A0A1;
+        background-color: #FFFFFF;
+        border: none;
+        font-size: 2em;
+        margin-top: 0.6em;
+        padding-left: 0.6em;
+        padding-right: 0.6em;
+    }
+
+    #slider {
+        background-color: #F3F1F1;
+        width: 100%;
+        padding: 2em;
+    }
+
+    #partners {
+        display: inline-block;
+        color: #A3A0A1;
+        font-size: 4em;
+        margin-bottom: 0.4em;
+    }
+
+    .carousel-control.left, .carousel-control.right {
+        background-image:none !important;
+        filter:none !important;
+        color: #A3A0A1;
+        margin-left: -3em;
+        margin-right: -3em;
+    }
+
+    #photo {
+        width: 100%;
+        padding: 0;
+    }
+
+    #contact {
+        width: 100%;
+        padding: 0;
+    }
+    
+    #contact_map {
+        height: 100%;
+        width: 50%;
+        float: left;
+        padding: 0;
+    }
+    
+    #contact_sendmail {
+        background-color: #F3F1F1;
+        height: 100%;
+        width: 50%;
+        float: left;
+    }
+
+    #message {
+        display: inline-block;
+        color: #A3A0A1;
+        font-size: 3em;
+        margin-top: 0.2em;
+        margin-bottom: 0;
+    }
+
+    .mailNames {
+        color: #A3A0A1;
+        font-size: 2em;
+    }
+    
+    .inputs {
+        border: 0 none;
+        width: 20em;
+        height: 2.2em;
+        padding: 0.3em;
+    }
+
+    #ym {
+        display: inline-block;
+        margin-top: 0.2em;
+    }
+
+    textarea {
+        width: 25em;;
+        height: 15em;
+        padding: 0.4em;
+        border: none;
+        background-color: #FFFFFF;
+    }
+
+    #button {
+        background-color: #9F0306;
+        color: white;
+        border: none;
+        font-size: 1.5em;
+        width: 7em;
+        float: right;
+        margin-top: 0.4em;
+    }
+
+    td {
+        padding-left: 7.5em !important;
+    }
+
+    #footer {
+        width: 100%;
+        height: 4em;
+        background-color: rgb(55, 48, 45);
+        padding: 1.5em;
+        color: white;
+        font-size: 1.15em;
+    }
+    
+    #footer > label > a {
+        color: #9F0306;
+        text-decoration: none;
+    }
 }
-
-#defaultCountdown {
-    width: 100%;
-}
-
-#title {
-    color: white;
-    font-size: 4em;
-}
-
-#titleText {
-    display: inline-block;
-    color: white;
-    font-size: 1.3em;
-    margin: 0 12em 0 12em;
-}
-
-#readMore {
-    color: #A3A0A1;
-    background-color: #FFFFFF;
-    border: none;
-    font-size: 2em;
-    margin-top: 0.6em;
-    padding-left: 0.6em;
-    padding-right: 0.6em;
-}
-
-#slider {
-    background-color: #F3F1F1;
-    width: 100%;
-    padding: 2em;
-}
-
-#partners {
-    display: inline-block;
-    color: #A3A0A1;
-    font-size: 4em;
-    margin-bottom: 0.4em;
-}
-
-.carousel-control.left, .carousel-control.right {
-    background-image:none !important;
-    filter:none !important;
-    color: #A3A0A1;
-    margin-left: -3em;
-    margin-right: -3em;
- }
-
-#photo {
-    width: 100%;
-    padding: 0;
-}
-
-#contact {
-    width: 100%;
-    padding: 0;
-}
-
-#contact_map {
-    height: 100%;
-    width: 50%;
-    float: left;
-    padding: 0;
-}
-
-#contact_sendmail {
-    background-color: #F3F1F1;
-    height: 100%;
-    width: 50%;
-    float: left;
-}
-
-#message {
-    display: inline-block;
-    color: #A3A0A1;
-    font-size: 3em;
-    margin-top: 0.2em;
-}
-
-.mailNames {
-    color: #A3A0A1;
-    font-size: 2em;
-}
-
-.inputs {
-    border: 0 none;
-    width: 20em;
-    height: 2.2em;
-    padding: 5px;
-}
-
-#ym {
-    display: inline-block;
-    margin-top: 0.2em;
-}
-
-td {
-    padding-left: 7.5em !important;
-}
-
-#button {
-    background-color: #9F0306;
-    color: white;
-    border: none;
-    font-size: 1.5em;
-    width: 7em;
-    float: right;
-    margin-top: 0.4em;
-}
-
-
-#footer {
-    width: 100%;
-    height: 4em;
-    background-color: rgb(55, 48, 45);
-    padding: 1.5em;
-    color: white;
-    font-size: 16px;
-}
-
-#footer > label > a {
-    color: #9F0306;
-    text-decoration: none;
-}
-
-
