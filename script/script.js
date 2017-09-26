@@ -1,8 +1,8 @@
 $(document).ready(function () {
-    $("#defaultCountdown").countdowntimer({
+    /*$("#defaultCountdown").countdowntimer({
         dateAndTime: "2017/10/02 11:00:00", //end date
         size: "xl"
-    });
+    });*/
 
     // Instantiate the Bootstrap carousel
     $('.multi-item-carousel').carousel({
