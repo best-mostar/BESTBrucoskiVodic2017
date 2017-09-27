@@ -145,6 +145,24 @@ body {
         color: #9F0306;
         text-decoration: none;
     }
+
+    .ITteamPhoto {
+        height: 10em;
+        width: 10em;
+        border-radius: 50%;
+        padding-bottom: 0.5em;
+    }
+    
+    .itteam {
+        padding: 2.55em;
+        text-align: center;
+        font-size: 1em;
+    }
+
+    .itteam > span > a {
+        color: #9F0306;
+        text-decoration: none;
+    }
 }
 
 @media only screen and (min-width: 481px) and (max-width: 767px) {
@@ -284,6 +302,24 @@ body {
     }
     
     #footer > label > a {
+        color: #9F0306;
+        text-decoration: none;
+    }
+
+    .ITteamPhoto {
+        height: 10em;
+        width: 10em;
+        border-radius: 50%;
+        padding-bottom: 0.5em;
+    }
+    
+    .itteam {
+        padding: 2.55em;
+        text-align: center;
+        font-size: 1em;
+    }
+
+    .itteam > span > a {
         color: #9F0306;
         text-decoration: none;
     }
@@ -441,6 +477,24 @@ body {
     }
     
     #footer > label > a {
+        color: #9F0306;
+        text-decoration: none;
+    }
+
+    .ITteamPhoto {
+        height: 15em;
+        width: 15em;
+        border-radius: 50%;
+        padding-bottom: 0.5em;
+    }
+    
+    .itteam {
+        padding: 2.55em;
+        text-align: center;
+        font-size: 1.2em;
+    }
+
+    .itteam > span > a {
         color: #9F0306;
         text-decoration: none;
     }
@@ -616,3 +670,44 @@ body {
     width: 50%;
     vertical-align: middle;
 }
+.ITteamPhoto {
+        height: 20em;
+        width: 20em;
+        border-radius: 50%;
+        padding-bottom: 0.5em;
+}
+    
+    .itteam {
+        padding: 2.55em;
+        text-align: center;
+        font-size: 1.2em;
+    }
+
+    .itteam > span > a {
+        color: #9F0306;
+        text-decoration: none;
+    }
+}
+
+.oProjektuTitle{
+
+    float: none;
+    margin:0 auto;
+    text-align: center;
+    color: #A3A0A1;
+}
+.oProjektuText{
+
+    float: none;
+    margin:0 auto;
+    font-size:1.2em;
+    font-family: sans-serif;
+    text-align: justify;
+    letter-spacing: 1px;
+    color: #A3A0A1;
+    margin-top: 6%;
+
+}
+ .containerOProjektu{
+     margin-bottom: 7.4%;
+ }
