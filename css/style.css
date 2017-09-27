@@ -671,3 +671,26 @@ body {
         text-decoration: none;
     }
 }
+
+.oProjektuTitle{
+
+    float: none;
+    margin:0 auto;
+    text-align: center;
+    color: #A3A0A1;
+}
+.oProjektuText{
+
+    float: none;
+    margin:0 auto;
+    font-size:1.2em;
+    font-family: sans-serif;
+    text-align: justify;
+    letter-spacing: 1px;
+    color: #A3A0A1;
+    margin-top: 6%;
+
+}
+ .containerOProjektu{
+     margin-bottom: 7.4%;
+ }
