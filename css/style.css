@@ -424,6 +424,7 @@ body {
         height: 100%;
         width: 50%;
         float: left;
+        border-top: 0.5px solid #A3A0A1;
     }
 
     table {
@@ -671,28 +672,24 @@ body {
     }
 }
 
-@media only screen and (min-width: 1025px) {
-
+.ITteamPhoto {
+    height: 20em;
+    width: 20em;
+    border-radius: 50%;
+    padding-bottom: 0.5em;
 }
-
-    .ITteamPhoto {
-        height: 20em;
-        width: 20em;
-        border-radius: 50%;
-        padding-bottom: 0.5em;
-    }
     
-    .itteam {
-        padding: 2.55em;
-        text-align: center;
-        font-size: 1.2em;
-    }
-
-    .itteam > span > a {
-        color: #9F0306;
-        text-decoration: none;
-    }
+.itteam {
+    padding: 2.55em;
+    text-align: center;
+    font-size: 1.2em;
 }
+
+.itteam > span > a {
+    color: #9F0306;
+    text-decoration: none;
+}
+
 
 .oProjektuTitle{
 
