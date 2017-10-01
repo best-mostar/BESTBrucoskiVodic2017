@@ -1,8 +1,8 @@
 $(document).ready(function () {
-    $("#defaultCountdown").countdowntimer({
+    /*$("#defaultCountdown").countdowntimer({
         dateAndTime: "2017/10/02 11:00:00", //end date
         size: "xl"
-    });
+    });*/
 
     // Instantiate the Bootstrap carousel
     $('.multi-item-carousel').carousel({
@@ -28,18 +28,22 @@ $(document).ready(function () {
     /*$(window).resize(function(){*/
         if ($(window).width() <= 480){	
             $("#defaultCountdown").countdowntimer({
+                dateAndTime: "2017/10/02 11:00:00",
                 size: "xs"
             });
         } else  if ($(window).width() <= 767){	
             $("#defaultCountdown").countdowntimer({
+                dateAndTime: "2017/10/02 11:00:00",
                 size: "sm"
             });
         } else if ($(window).width() <= 1024){	
             $("#defaultCountdown").countdowntimer({
+                dateAndTime: "2017/10/02 11:00:00",
                 size: "md"
             });
         } else {
             $("#defaultCountdown").countdowntimer({
+                dateAndTime: "2017/10/02 11:00:00",
                 size: "xl"
             });
         }	
