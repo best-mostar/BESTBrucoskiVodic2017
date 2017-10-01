@@ -602,6 +602,7 @@ body {
         height: 100%;
         width: 50%;
         float: left;
+        border-top: 0.5px solid #A3A0A1;
     }
 
     table {
