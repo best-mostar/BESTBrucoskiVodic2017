@@ -12,6 +12,10 @@ body {
         width: 5.6em;
         margin-top: -15%;
     }
+
+    .navbar-collapse {
+        text-align: center;
+    }
    
     #counter {
         background-color: #9F0306;
@@ -174,6 +178,10 @@ body {
         height: 2.7em;
         width: 5.6em;
         margin-top: -15%;
+    }
+
+    .navbar-collapse {
+        text-align: center;
     }
     
     #counter {
@@ -358,6 +366,10 @@ body {
         padding: 2em;
     }
 
+    .navbar-collapse {
+        text-align: center;
+    }
+
     #title {
         color: white;
         font-size: 3em;
@@ -525,6 +537,10 @@ body {
         margin: 0.3em 3em;
         font-size: 1.3em;
         color: #A3A0A1;
+    }
+
+    .navbar-collapse {
+        text-align: center;
     }
 
     .content {
