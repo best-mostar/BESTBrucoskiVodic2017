@@ -675,7 +675,26 @@ body {
         color: #9F0306;
         text-decoration: none;
     }
+  
+    .ITteamPhoto {
+        height: 20em;
+        width: 20em;
+        border-radius: 50%;
+        padding-bottom: 0.5em;
+    }
+   
+    .itteam {
+      padding: 2.55em;
+      text-align: center;
+      font-size: 1.2em;
+    }
+
+    .itteam > span > a {
+      color: #9F0306;
+      text-decoration: none;
+    }
 }
+
 .partners {
     text-align: center;
     padding: 3%;
@@ -692,34 +711,15 @@ body {
     width: 50%;
     vertical-align: middle;
 }
-.ITteamPhoto {
-        height: 20em;
-        width: 20em;
-        border-radius: 50%;
-        padding-bottom: 0.5em;
-}
-   
-.itteam {
-    padding: 2.55em;
-    text-align: center;
-    font-size: 1.2em;
-}
-
-.itteam > span > a {
-    color: #9F0306;
-    text-decoration: none;
-}
-
 
 .oProjektuTitle{
-
     float: none;
     margin:0 auto;
     text-align: center;
     color: #A3A0A1;
 }
-.oProjektuText{
 
+.oProjektuText{
     float: none;
     margin:0 auto;
     font-size:1.2em;
@@ -728,8 +728,8 @@ body {
     letter-spacing: 1px;
     color: #A3A0A1;
     margin-top: 6%;
-
 }
- .containerOProjektu{
-     margin-bottom: 7.4%;
- }
+
+.containerOProjektu{
+    margin-bottom: 7.4%;
+}
