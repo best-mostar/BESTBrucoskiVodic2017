@@ -3,7 +3,7 @@
 }
 
 body {
-     background-color: #F3F1F1 !important;
+    background-color: #F3F1F1 !important;
 }
 
 @media only screen and  (min-width: 320px) and (max-width: 480px) {
@@ -586,6 +586,11 @@ body {
         padding: 0;
     }
 
+    .img-responsive {
+        height: 35%;
+        width: 35%;
+    }
+
     #contact {
         width: 100%;
         padding: 0;
@@ -671,14 +676,29 @@ body {
         text-decoration: none;
     }
 }
-
-.ITteamPhoto {
-    height: 20em;
-    width: 20em;
-    border-radius: 50%;
-    padding-bottom: 0.5em;
+.partners {
+    text-align: center;
+    padding: 3%;
+    vertical-align: middle;
 }
-    
+
+.container > h3 {
+    font-size: 3em;
+    color: #A3A0A1;
+}
+
+.partners > a > img {
+    height: 50%;
+    width: 50%;
+    vertical-align: middle;
+}
+.ITteamPhoto {
+        height: 20em;
+        width: 20em;
+        border-radius: 50%;
+        padding-bottom: 0.5em;
+}
+   
 .itteam {
     padding: 2.55em;
     text-align: center;
