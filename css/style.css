@@ -673,25 +673,8 @@ body {
         color: #9F0306;
         text-decoration: none;
     }
-}
 
-.partners {
-    text-align: center;
-    padding: 3%;
-    vertical-align: middle;
-}
-
-.container > h3 {
-    font-size: 3em;
-    color: #A3A0A1;
-}
-
-.partners > a > img {
-    height: 50%;
-    width: 50%;
-    vertical-align: middle;
-}
-.ITteamPhoto {
+    .ITteamPhoto {
         height: 20em;
         width: 20em;
         border-radius: 50%;
@@ -710,15 +693,31 @@ body {
     }
 }
 
-.oProjektuTitle{
+.partners {
+    text-align: center;
+    padding: 3%;
+    vertical-align: middle;
+}
 
+.container > h3 {
+    font-size: 3em;
+    color: #A3A0A1;
+}
+
+.partners > a > img {
+    height: 50%;
+    width: 50%;
+    vertical-align: middle;
+}
+
+.oProjektuTitle{
     float: none;
     margin:0 auto;
     text-align: center;
     color: #A3A0A1;
 }
-.oProjektuText{
 
+.oProjektuText{
     float: none;
     margin:0 auto;
     font-size:1.2em;
@@ -727,8 +726,8 @@ body {
     letter-spacing: 1px;
     color: #A3A0A1;
     margin-top: 6%;
-
 }
- .containerOProjektu{
-     margin-bottom: 7.4%;
- }
+
+.containerOProjektu{
+    margin-bottom: 7.4%;
+}
