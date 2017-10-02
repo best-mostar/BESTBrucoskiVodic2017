@@ -446,7 +446,7 @@ body {
     
     .inputs {
         border: 0 none;
-        width: 11em;
+        width: 10em;
         height: 1.6em;
         padding: 0.3em;
         margin-bottom: 0.5em;
@@ -458,8 +458,8 @@ body {
     }
 
     textarea {
-        width: 15em;;
-        height: 10em;
+        width: 13em;;
+        height: 9em;
         padding: 0.4em;
         border: none;
         background-color: #FFFFFF;
@@ -477,7 +477,7 @@ body {
     }
 
     td {
-        padding-left: 1.5em !important;
+        padding-left: 1em !important;
     }
 
     #footer {
