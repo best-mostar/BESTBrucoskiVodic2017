@@ -749,3 +749,7 @@ body {
 .containerOProjektu{
     margin-bottom: 7.4%;
 }
+
+input::placeholder, textarea::placeholder {
+    color: #A3A0A1;
+}
