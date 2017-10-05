@@ -47,5 +47,43 @@ $(document).ready(function () {
             size: "xl"
         });
     }
+
+
+
+    $( "#button" ).on( "click", (function(e) {
+        e.preventDefault();
+
+        var data = new FormData();
+
+        var inputFields = $('#contactForm').serializeArray();
+
+        for (i = 0; i < inputFields.length; i++) {
+            console.log(inputFields[i]);
+            if (inputFields[i]['value'].length > 0)
+                data.append(inputFields[i]['name'], inputFields[i]['value']);
+        }
+        $.ajax({
+            type: 'POST',
+            url: 'mailer.php',
+            data: data,
+            contentType: false,
+            processData: false,
+            async: true,
+            cache: false,
+            success: function (response) {
+                console.log(response);
+                // $('#cmsg').fadeOut();
+                // $('#cmsg').empty();
+                // $('#cmsg').append(response);
+                // $('#cmsg').fadeIn(response);
+
+            },
+            error: function (err) {
+                //openNotif("error", "Something went wrong. Please check all your accommodation details if they are valid and try saving it again.");
+            }
+        });
+
+    }));
+
     /* });*/
 });
