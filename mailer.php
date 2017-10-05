@@ -19,7 +19,8 @@
         phpAlert("Your email has been sent!");
 
     }
-    else
+    else {
         phpAlert("Something went wrong. Please try again!");
         die();
+    }
 ?>
